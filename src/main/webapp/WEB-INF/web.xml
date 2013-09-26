@@ -1,0 +1,7 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" version="2.4">
+  <display-name>GuestBook</display-name>
+    <servlet>
+        <servlet-name>GuestBook</servlet-name>
+        <servlet-class>gbook.Book</servlet-class>
+    </servlet>
+</web-app>
