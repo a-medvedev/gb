@@ -25,21 +25,24 @@ public class Book extends HttpServlet{
 
     @Override
     public void init(){
-
-        String query = "jdbc:h2:mem:posts", login = "gb_admin", password = "test";
         try {
             //Class.forName("org.h2.Driver");
             link = ds.getConnection();
-            link.createStatement().executeUpdate(
-                    "CREATE TABLE `posts`" +
-                            "(`id` INT NOT NULL AUTO_INCREMENT," +
-                            "`user` TEXT," +
-                            "`post` TEXT," +
-                            "`date` FLOAT," +
-                            "PRIMARY KEY  (`id`))"
-            );
+            DatabaseMetaData dbm = link.getMetaData();
+            ResultSet tables = dbm.getTables(null, null, "posts", null);
+            if (!tables.next()) {
+                link.createStatement().executeUpdate(
+                        "CREATE TABLE `posts`" +
+                                "(`id` INT NOT NULL AUTO_INCREMENT," +
+                                "`user` TEXT," +
+                                "`post` TEXT," +
+                                "`date` FLOAT," +
+                                "PRIMARY KEY  (`id`))"
+                );
+            }
             addStatement = link.prepareStatement("INSERT INTO posts (user, date, post) VALUES (?, ?, ?)");
             listStatement = link.prepareStatement("SELECT * FROM posts");
+
         } catch (SQLException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
@@ -53,14 +56,25 @@ public class Book extends HttpServlet{
 
         if (!name.isEmpty() && !message.isEmpty()){
             try{
-                addStatement.setLong(2, new Date().getTime());
+                addStatement.setLong(2, new java.util.Date().getTime());
                 addStatement.setString(1, name);
                 addStatement.setString(3, message);
                 addStatement.execute();
+                response.sendRedirect("http://localhost:8080/gb/book");
             } catch (SQLException e) {
+                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            } catch (IOException e) {
+                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            }
+        } else {
+            try {
+                response.sendRedirect("http://localhost:8080/gb/book");
+            } catch (IOException e) {
                 e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             }
         }
+
+
     }
 
     @Override
@@ -78,19 +92,22 @@ public class Book extends HttpServlet{
             ResultSet rs = listStatement.executeQuery();
             while(rs.next()){
                 Record r = new Record();
-                r.id = rs.getInt("id");
-                r.date = rs.getLong("date");
-                r.message = rs.getString("post");
-                r.user = rs.getString("user");
+                r.setId(rs.getInt("id"));
+                r.setDate(rs.getLong("date"));
+                r.setMessage(rs.getString("post"));
+                r.setUser(rs.getString("user"));
                 records.add(r);
             }
         } catch (SQLException e) {
-            //System.out.println("Произошла ошибка чтения сообщений.");
+            System.err.println("Произошла ошибка чтения сообщений. Err");
+            System.out.println("Произошла ошибка чтения сообщений. Out");
+        }  catch (NullPointerException e){
+
         }
 
 
         request.setAttribute("text1", text);
         request.setAttribute("records", records);
-        request.getRequestDispatcher("/test.jsp").forward(request, response);
+        request.getRequestDispatcher("/book.jsp").forward(request, response);
     }
 }

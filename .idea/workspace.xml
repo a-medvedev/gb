@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="051e50bc-edec-4106-bb4c-634614f302f0" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\Dropbox\Projects\Java\gb\src\main\webapp\test.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gbook/Book.java" afterPath="$PROJECT_DIR$/src/main/java/gbook/Book.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gbook/Record.java" afterPath="$PROJECT_DIR$/src/main/java/gbook/Record.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/book.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/book.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gb.iws" />
@@ -9,10 +13,10 @@
     <file path="/index.jsp" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380349243356" ignored="false" />
     <file path="/web.xml" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380196399405" ignored="false" />
     <file path="/pom.xml" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380340986607" ignored="false" />
-    <file path="/Book.java" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380355856326" ignored="false" />
+    <file path="/Book.java" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380446603321" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380197937516" ignored="false" />
-    <file path="/test.jsp" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380356575691" ignored="false" />
-    <file path="/Dummy.txt" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380372751758" ignored="false" />
+    <file path="/test.jsp" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380443579542" ignored="false" />
+    <file path="/Dummy.txt" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380873533344" ignored="false" />
     <file path="D:/proj/TestServlet/src/Servlet.java" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380340547513" ignored="false" />
     <file path="$PROJECT_DIR$/../ConsoleGB/.idea/workspace.xml" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380342304124" ignored="false" />
     <file path="/Servlet.java" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380341071818" ignored="false" />
@@ -23,9 +27,10 @@
     <file path="D:/proj/TestServlet/src/main/resources/Servlet.java" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380341106023" ignored="false" />
     <file path="D:/proj/TestServlet/src/main/webapp/index.jsp" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380341093050" ignored="false" />
     <file path="$PROJECT_DIR$/../ConsoleGB/src/main/java/GuestBook/App.java" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380349733476" ignored="false" />
-    <file path="/book.jsp" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380352081502" ignored="false" />
+    <file path="/book.jsp" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380446222594" ignored="false" />
     <file path="$PROJECT_DIR$/../ConsoleGB/src/main/java/GuestBook/Controller.java" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380353317026" ignored="false" />
     <file path="/fragment.java" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380353445093" ignored="false" />
+    <file path="/Record.java" changelist="051e50bc-edec-4106-bb4c-634614f302f0" time="1380446199777" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +45,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -76,7 +82,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -95,11 +100,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Book.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gbook/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="0" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="72" column="16" selection-start="2786" selection-end="2881" vertical-scroll-proportion="-0.08405797">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,25 +114,7 @@
       <file leaf-file-name="Record.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gbook/Record.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="book.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/book.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="7" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gb.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gb.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="19" column="21" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -149,10 +138,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp">
+      <file leaf-file-name="book.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/book.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="38" selection-start="319" selection-end="319" vertical-scroll-proportion="0.24182077">
+            <state line="26" column="71" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -181,12 +170,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/book.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/gbook/Record.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/gbook/Book.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/gbook/Record.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/book.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/gbook/Book.java" />
       </list>
     </option>
   </component>
@@ -260,6 +249,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -373,7 +363,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -390,14 +379,14 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="Downloaded.Files.Path" value="D:\Dropbox\Projects\Java\gb\lib" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -441,19 +430,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -480,6 +456,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -560,31 +549,35 @@
       <created>1380363139112</created>
       <updated>1380363139112</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="28.09.13 17-12&#10;">
+      <created>1380372771052</created>
+      <updated>1380372771052</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.66941017" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784638" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.66941017" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24748924" sideWeight="0.67142856" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25824964" sideWeight="0.67215365" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16355811" sideWeight="0.67142856" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16355811" sideWeight="0.67215365" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784638" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -662,10 +655,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/book.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="71" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gbook/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="1" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -693,7 +695,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/gbook/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="2" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -716,13 +720,6 @@
         <state line="15" column="52" selection-start="593" selection-end="593" vertical-scroll-proportion="0.7223796" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gb.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="0" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
@@ -730,11 +727,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/book.jsp">
+    <entry file="file://$PROJECT_DIR$/gb.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
@@ -746,7 +741,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gbook/Record.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+        <state line="19" column="21" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/book.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="71" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -760,15 +762,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gbook/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="0" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="38" selection-start="319" selection-end="319" vertical-scroll-proportion="0.24182077">
-          <folding />
+        <state line="72" column="16" selection-start="2786" selection-end="2881" vertical-scroll-proportion="-0.08405797">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
